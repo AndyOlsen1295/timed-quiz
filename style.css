@@ -1,0 +1,55 @@
+* {
+    background-color: beige;
+
+}
+
+header {
+    margin-left: 475px;
+}
+
+p {
+    margin-left: 350px;
+    width: 450px;
+    word-wrap: break-word;
+    display: inline-block;
+
+}
+
+.start {
+    display: block;
+    font-size: large;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 550px;
+}
+
+button {
+    display: block;
+    font-size: large;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+box {
+    display: block;
+    display: contents;
+    font-size: medium;
+    color: blue;
+}
+
+.hidden {
+    display: none;
+}
+
+.timerBox {
+    display: block;
+    font-size: medium;
+    background-color: black;
+    color: red;
+    margin-left: 650px;
+    height: 150px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coding Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="C:\Users\andyo\onedrive\desktop\developer\challenges\timed-quiz\style.css" />
+   </head>
+
+<body>
+  <header> 
+    <h1>Coding Quiz</h1>
+    <div id = "timerEl" class = "timerBox">Time Remaining:</div>
+  </header>
+  
+  <div id="startDiv">
+    <p>The timer will begin counting down once you have clicked "start." 
+        Time will be deducted each time you answer a question incorrectly.
+    </p>
+    <h1>
+        <button class="start" id="startQuiz">Start!</button>
+    </h1>
+    </div>
+
+    <div id="questionDiv" class="hidden">
+      <p id="questionText">Q</p>
+      <button id="choice1">A</button>
+      <button id="choice2">B</button>
+      <button id="choice3">C</button>
+      <button id="choice4">D</button>
+    </div>
+
+    <div id="scoreForm" class="hidden">
+      <input type="text">
+      <button id="saveScore">Save</button>
+    </div>
+<script src="script.js"></script>
+</body>
