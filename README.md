@@ -1,6 +1,6 @@
 #Timed Coding Quiz
 
-The purpose of this Webpage is to show my ability to use JavaScript and Web API's. 
+The purpose of this Webpage is to show my ability to use JavaScript. 
 
 Once the "start" button is clicked, the timer will begin.
 
